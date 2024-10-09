@@ -38,7 +38,7 @@ export default function RootLayout({
   return (
     <html
       lang={locale}
-      dir={locale === 'ar' || locale == 'fa' ? 'rtl' : 'ltr'}
+      dir={'ltr'}
       className={`${space_grotesk.variable} ${rubik.variable} scroll-smooth`}
       suppressHydrationWarning
     >
